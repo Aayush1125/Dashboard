@@ -12,6 +12,20 @@ from world_map import show_world_timelapse_map
 from india_map import show_india_timelapse_map, load_geojson # ADD THIS LINE
 import glob
 import json # If not already imported
+if "selected_pulse_india" not in st.session_state:
+    st.session_state.selected_pulse_india = "Tur"
+
+if "selected_season_india" not in st.session_state:
+    st.session_state.selected_season_india = "Kharif"
+
+if "selected_type" not in st.session_state:
+    st.session_state.selected_type = "Area"
+
+if "india_geojson" not in st.session_state:
+    st.session_state.india_geojson = None
+
+if "india_map_full_path" not in st.session_state:
+    st.session_state.india_map_full_path = "path/to/your/data.csv"
 
 # Page setup
 st.set_page_config(layout="wide", page_title="India FoodCrop Dashboard", page_icon="🌾")
@@ -289,6 +303,8 @@ with st.sidebar:
         selected_file = available_categories[selected_world_category]
 
 # ... (after the WORLD MAP sidebar section)
+for feature in india_geojson["features"]:
+    feature["properties"]["ST_NM"] = feature["properties"]["NAME_1"]
 
 # ---------- INDIA MAP CONTROLS ----------
 with st.sidebar:
