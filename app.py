@@ -387,11 +387,11 @@ else:
             st.error(f"Error loading or processing India map data from '{india_map_file_name}': {e}")
     else:
         st.warning(f"Data file not found for India map: {india_map_file_name} at path {india_map_full_path}")
-elif not st.session_state.india_geojson:
+'''elif not st.session_state.india_geojson:
     st.error("India map cannot be displayed because GeoJSON data failed to load.")
 else:
     st.info("Select options in the sidebar to display the India map.")
-'''if st.session_state.india_geojson and india_map_full_path:
+if st.session_state.india_geojson and india_map_full_path:
     if os.path.exists(india_map_full_path):
         try:
             df_india = pd.read_csv(india_map_full_path)
