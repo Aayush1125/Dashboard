@@ -7,6 +7,12 @@ from growth_analysis import plot_logest_growth_from_csv
 from world_map import show_world_timelapse_map
 import glob
 
+# ... (your existing imports)
+from world_map import show_world_timelapse_map
+from india_map import show_india_timelapse_map, load_geojson # ADD THIS LINE
+import glob
+import json # If not already imported
+
 # Page setup
 st.set_page_config(layout="wide", page_title="India FoodCrop Dashboard", page_icon="🌾")
 
@@ -282,6 +288,49 @@ with st.sidebar:
         selected_world_category = st.selectbox("World Map Category", list(available_categories.keys()))
         selected_file = available_categories[selected_world_category]
 
+# ... (after the WORLD MAP sidebar section)
+
+# ---------- INDIA MAP CONTROLS ----------
+with st.sidebar:
+    st.markdown("---")
+    st.markdown("### 🇮🇳 India State-wise Map")
+
+    if 'india_geojson' not in st.session_state:
+        st.session_state.india_geojson = load_geojson()
+
+    if st.session_state.india_geojson:
+        india_map_food_crop = st.selectbox(
+            "Select Food Crop (India Map)",
+            ["Pulses"],
+            key="india_map_food_crop"
+        )
+
+        pulse_options_india = [
+            "Arhar", "Gram", "Moong", "Masoor", "Urad", "Moth",
+            "Kulthi", "Khesari", "Total Pulses"
+        ]
+        selected_pulse_india = st.selectbox(
+            "Select Pulse (India Map)",
+            pulse_options_india,
+            key="india_map_pulse"
+        )
+
+        season_options_india = ["Kharif", "Rabi", "Total Season"]
+        selected_season_india = st.selectbox(
+            "Select Season (India Map)",
+            season_options_india,
+            key="india_map_season"
+        )
+
+        india_map_data_path = f"India_Map_Data/{st.session_state.selected_type}"
+        sanitized_pulse_name = selected_pulse_india.replace(" ", "_")
+        india_map_file_name = f"{sanitized_pulse_name}_{selected_season_india}.csv"
+        india_map_full_path = os.path.join(india_map_data_path, india_map_file_name)
+    else:
+        st.sidebar.error("Could not load GeoJSON for India map. Map functionality will be disabled.")
+        india_map_full_path = None
+# Ensure this is defined if GeoJSON fails to load
+
 # ---------- MAIN WORLD RENDER ----------
 if selected_file:
     df_world = pd.read_csv(selected_file)
@@ -290,4 +339,29 @@ if selected_file:
 elif selected_type:  # Only warn if type was selected but no files
     st.warning("No data files found for selected type.")
 
+# ... (after your existing "MAIN WORLD RENDER" section or another suitable place)
 
+# ---------- INDIA MAP RENDER ----------
+st.markdown("---")
+st.subheader(f"🇮🇳 State-wise {selected_pulse_india} - {selected_season_india} ({st.session_state.selected_type})")
+
+if st.session_state.india_geojson and india_map_full_path:
+    if os.path.exists(india_map_full_path):
+        try:
+            df_india = pd.read_csv(india_map_full_path)
+            required_cols = ["State", "Year", "Value"]
+            if all(col in df_india.columns for col in required_cols):
+                metric_display_title = f"{selected_pulse_india} - {selected_season_india} - {st.session_state.selected_type}"
+                show_india_timelapse_map(df_india, st.session_state.india_geojson, metric_title=metric_display_title)
+            else:
+                st.error(f"Data file '{india_map_file_name}' is missing one or more required columns: {required_cols}.")
+        except pd.errors.EmptyDataError:
+            st.warning(f"The data file '{india_map_file_name}' is empty.")
+        except Exception as e:
+            st.error(f"Error loading or processing India map data from '{india_map_file_name}': {e}")
+    else:
+        st.warning(f"Data file not found for India map: {india_map_file_name} at path {india_map_full_path}")
+elif not st.session_state.india_geojson:
+    st.error("India map cannot be displayed because GeoJSON data failed to load.")
+else:
+    st.info("Select options in the sidebar to display the India map.")
