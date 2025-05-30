@@ -347,7 +347,30 @@ st.markdown("---")
 
 st.subheader(f"🇮🇳 State-wise {st.session_state.selected_pulse_india} - {st.session_state.selected_season_india} ({st.session_state.selected_type})")
 
-if st.session_state.india_geojson and st.session_state.india_map_full_path:
+#if st.session_state.india_geojson and st.session_state.india_map_full_path:
+india_geojson = st.session_state.get("india_geojson")
+india_map_full_path = st.session_state.get("india_map_full_path")
+selected_pulse_india = st.session_state.get("selected_pulse_india")
+selected_season_india = st.session_state.get("selected_season_india")
+selected_type = st.session_state.get("selected_type")
+
+if india_geojson and india_map_full_path and selected_pulse_india and selected_season_india and selected_type:
+    st.subheader(f"🇮🇳 State-wise {selected_pulse_india} - {selected_season_india} ({selected_type})")
+
+    if os.path.exists(india_map_full_path):
+        df_india = pd.read_csv(india_map_full_path)
+        required_cols = ["State", "Year", "Value"]
+
+        if all(col in df_india.columns for col in required_cols):
+            metric_display_title = f"{selected_pulse_india} - {selected_season_india} - {selected_type}"
+            show_india_timelapse_map(df_india, india_geojson, metric_title=metric_display_title)
+        else:
+            st.error(f"Data file '{os.path.basename(india_map_full_path)}' is missing required columns: {required_cols}")
+    else:
+        st.error(f"File not found: {india_map_full_path}")
+else:
+    st.info("Please select all required options from the sidebar to view the India map.")
+
     if os.path.exists(st.session_state.india_map_full_path):
         try:
             df_india = pd.read_csv(st.session_state.india_map_full_path)
