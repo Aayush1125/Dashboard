@@ -1,0 +1,407 @@
+State,Year,Value
+Andhra Pradesh,1996-1997,413
+Assam,1996-1997,427
+Bihar,1996-1997,566
+Gujarat,1996-1997,560
+Karnataka,1996-1997,311
+Kerala,1996-1997,-
+Madhya Pradesh,1996-1997,1309
+Maharashtra,1996-1997,1047
+Odisha,1996-1997,10
+Puducherry,1996-1997,-
+Rajasthan,1996-1997,-
+Tamil Nadu,1996-1997,-
+Uttar Pradesh,1996-1997,655
+West Bengal,1996-1997,368
+India,1996-1997,457
+Andhra Pradesh,1997-1998,386
+Assam,1997-1998,437
+Bihar,1997-1998,494
+Gujarat,1997-1998,621
+Karnataka,1997-1998,222
+Madhya Pradesh,1997-1998,225
+Maharashtra,1997-1998,387
+Odisha,1997-1998,207
+Puducherry,1997-1998,320
+Tamil Nadu,1997-1998,359
+Uttar Pradesh,1997-1998,402
+West Bengal,1997-1998,374
+India,1997-1998,379
+Andhra Pradesh,1998-1999,394
+Assam,1998-1999,443
+Bihar,1998-1999,659
+Gujarat,1998-1999,552
+Karnataka,1998-1999,449
+Madhya Pradesh,1998-1999,244
+Maharashtra,1998-1999,423
+Odisha,1998-1999,238
+Puducherry,1998-1999,480
+Tamil Nadu,1998-1999,541
+Tripura,1998-1999,-
+Uttar Pradesh,1998-1999,497
+West Bengal,1998-1999,383
+India,1998-1999,479
+Andhra Pradesh,1999-2000,261
+Assam,1999-2000,449
+Bihar,1999-2000,551
+Gujarat,1999-2000,473
+Karnataka,1999-2000,249
+Madhya Pradesh,1999-2000,278
+Maharashtra,1999-2000,460
+Odisha,1999-2000,229
+Puducherry,1999-2000,520
+Tamil Nadu,1999-2000,396
+Uttar Pradesh,1999-2000,608
+West Bengal,1999-2000,458
+India,1999-2000,418
+Andhra Pradesh,2000-2001,335
+Assam,2000-2001,459
+Bihar,2000-2001,582
+Chhattisgarh,2000-2001,209
+Gujarat,2000-2001,667
+Karnataka,2000-2001,265
+Madhya Pradesh,2000-2001,222
+Odisha,2000-2001,268
+Puducherry,2000-2001,560
+Tamil Nadu,2000-2001,485
+Uttar Pradesh,2000-2001,452
+West Bengal,2000-2001,585
+India,2000-2001,449
+Andhra Pradesh,2001-2002,304
+Assam,2001-2002,451
+Bihar,2001-2002,598
+Chhattisgarh,2001-2002,268
+Gujarat,2001-2002,583
+Karnataka,2001-2002,296
+Madhya Pradesh,2001-2002,241
+Maharashtra,2001-2002,500
+Odisha,2001-2002,289
+Tamil Nadu,2001-2002,446
+Uttar Pradesh,2001-2002,500
+West Bengal,2001-2002,553
+India,2001-2002,438
+Andhra Pradesh,2002-2003,255
+Assam,2002-2003,4286
+Bihar,2002-2003,609
+Chhattisgarh,2002-2003,250
+Gujarat,2002-2003,524
+Karnataka,2002-2003,171
+Madhya Pradesh,2002-2003,250
+Maharashtra,2002-2003,475
+Odisha,2002-2003,306
+Tamil Nadu,2002-2003,344
+Uttar Pradesh,2002-2003,563
+West Bengal,2002-2003,522
+India,2002-2003,425
+Andhra Pradesh,2003-2004,337
+Assam,2003-2004,500
+Bihar,2003-2004,490
+Chhattisgarh,2003-2004,253
+Gujarat,2003-2004,510
+Karnataka,2003-2004,298
+Madhya Pradesh,2003-2004,258
+Maharashtra,2003-2004,364
+Odisha,2003-2004,252
+Puducherry,2003-2004,308
+Tamil Nadu,2003-2004,424
+Uttar Pradesh,2003-2004,528
+West Bengal,2003-2004,427
+India,2003-2004,390
+Andhra Pradesh,2004-2005,327
+Assam,2004-2005,507
+Bihar,2004-2005,552
+Chhattisgarh,2004-2005,209
+Gujarat,2004-2005,405
+Karnataka,2004-2005,400
+Madhya Pradesh,2004-2005,250
+Maharashtra,2004-2005,250
+Odisha,2004-2005,269
+Puducherry,2004-2005,263
+Tamil Nadu,2004-2005,416
+Uttar Pradesh,2004-2005,536
+West Bengal,2004-2005,373
+India,2004-2005,420
+Andhra Pradesh,2005-2006,316
+Assam,2005-2006,453
+Bihar,2005-2006,553
+Chhattisgarh,2005-2006,233
+Gujarat,2005-2006,667
+Karnataka,2005-2006,429
+Madhya Pradesh,2005-2006,281
+Maharashtra,2005-2006,408
+Odisha,2005-2006,321
+Puducherry,2005-2006,333
+Tamil Nadu,2005-2006,323
+Uttar Pradesh,2005-2006,712
+West Bengal,2005-2006,364
+India,2005-2006,414
+Andhra Pradesh,2006-2007,432
+Assam,2006-2007,429
+Bihar,2006-2007,526
+Chhattisgarh,2006-2007,236
+Gujarat,2006-2007,427
+Karnataka,2006-2007,375
+Madhya Pradesh,2006-2007,241
+Maharashtra,2006-2007,415
+Odisha,2006-2007,270
+Puducherry,2006-2007,333
+Tamil Nadu,2006-2007,480
+Uttar Pradesh,2006-2007,528
+West Bengal,2006-2007,398
+India,2006-2007,434
+Andhra Pradesh,2007-2008,342
+Assam,2007-2008,500
+Bihar,2007-2008,683
+Chhattisgarh,2007-2008,235
+Gujarat,2007-2008,800
+Karnataka,2007-2008,333
+Madhya Pradesh,2007-2008,258
+Maharashtra,2007-2008,385
+Odisha,2007-2008,263
+Puducherry,2007-2008,136
+Tamil Nadu,2007-2008,238
+Uttar Pradesh,2007-2008,625
+West Bengal,2007-2008,647
+India,2007-2008,400
+Andhra Pradesh,2008-2009,389
+Assam,2008-2009,464
+Bihar,2008-2009,669
+Chhattisgarh,2008-2009,232
+Gujarat,2008-2009,667
+Karnataka,2008-2009,250
+Madhya Pradesh,2008-2009,250
+Maharashtra,2008-2009,333
+Odisha,2008-2009,291
+Puducherry,2008-2009,167
+Tamil Nadu,2008-2009,197
+Uttar Pradesh,2008-2009,735
+West Bengal,2008-2009,518
+India,2008-2009,423
+Andhra Pradesh,2009-2010,406
+Assam,2009-2010,464
+Bihar,2009-2010,510
+Chhattisgarh,2009-2010,-
+Gujarat,2009-2010,714
+Karnataka,2009-2010,333
+Madhya Pradesh,2009-2010,269
+Maharashtra,2009-2010,323
+Odisha,2009-2010,315
+Puducherry,2009-2010,-
+Tamil Nadu,2009-2010,317
+Uttar Pradesh,2009-2010,735
+West Bengal,2009-2010,510
+India,2009-2010,419
+Andhra Pradesh,2010-2011,349
+Assam,2010-2011,456
+Bihar,2010-2011,600
+Chhattisgarh,2010-2011,231
+Gujarat,2010-2011,608
+Karnataka,2010-2011,273
+Madhya Pradesh,2010-2011,212
+Maharashtra,2010-2011,500
+Odisha,2010-2011,333
+Puducherry,2010-2011,467
+Tamil Nadu,2010-2011,278
+Telangana,2010-2011,550
+West Bengal,2010-2011,690
+India,2010-2011,431
+Andhra Pradesh,2011-2012,595
+Assam,2011-2012,463
+Bihar,2011-2012,600
+Chhattisgarh,2011-2012,233
+Gujarat,2011-2012,500
+Haryana,2011-2012,357
+Karnataka,2011-2012,333
+Madhya Pradesh,2011-2012,216
+Maharashtra,2011-2012,443
+Odisha,2011-2012,323
+Rajasthan,2011-2012,947
+Tamil Nadu,2011-2012,480
+Telangana,2011-2012,733
+Uttar Pradesh,2011-2012,857
+West Bengal,2011-2012,641
+India,2011-2012,508
+Andhra Pradesh,2012-2013,681
+Assam,2012-2013,587
+Bihar,2012-2013,624
+Chhattisgarh,2012-2013,235
+Gujarat,2012-2013,478
+Haryana,2012-2013,630
+Karnataka,2012-2013,167
+Madhya Pradesh,2012-2013,342
+Maharashtra,2012-2013,400
+Odisha,2012-2013,341
+Puducherry,2012-2013,-
+Punjab,2012-2013,790
+Tamil Nadu,2012-2013,290
+Telangana,2012-2013,720
+Uttar Pradesh,2012-2013,816
+West Bengal,2012-2013,707
+India,2012-2013,539
+Andaman & Nicobar Islands,2013-2014,438
+Andhra Pradesh,2013-2014,624
+Assam,2013-2014,641
+Bihar,2013-2014,672
+Chhattisgarh,2013-2014,224
+Gujarat,2013-2014,709
+Haryana,2013-2014,638
+Karnataka,2013-2014,333
+Madhya Pradesh,2013-2014,466
+Odisha,2013-2014,412
+Puducherry,2013-2014,407
+Punjab,2013-2014,875
+Tamil Nadu,2013-2014,807
+Telangana,2013-2014,932
+Tripura,2013-2014,593
+Uttar Pradesh,2013-2014,659
+West Bengal,2013-2014,863
+India,2013-2014,620
+Andaman & Nicobar Islands,2014-2015,505
+Andhra Pradesh,2014-2015,819
+Assam,2014-2015,687
+Bihar,2014-2015,579
+Chhattisgarh,2014-2015,219
+Gujarat,2014-2015,484
+Karnataka,2014-2015,333
+Madhya Pradesh,2014-2015,513
+Odisha,2014-2015,400
+Puducherry,2014-2015,682
+Punjab,2014-2015,833
+Tamil Nadu,2014-2015,809
+Telangana,2014-2015,556
+Tripura,2014-2015,586
+Uttar Pradesh,2014-2015,667
+West Bengal,2014-2015,810
+India,2014-2015,640
+Andaman & Nicobar Islands,2015-2016,610
+Andhra Pradesh,2015-2016,744
+Assam,2015-2016,677
+Bihar,2015-2016,548
+Chhattisgarh,2015-2016,383
+Gujarat,2015-2016,560
+Haryana,2015-2016,735
+Karnataka,2015-2016,363
+Madhya Pradesh,2015-2016,521
+Manipur,2015-2016,1000
+Odisha,2015-2016,325
+Puducherry,2015-2016,330
+Punjab,2015-2016,986
+Tamil Nadu,2015-2016,492
+Telangana,2015-2016,750
+Tripura,2015-2016,550
+Uttar Pradesh,2015-2016,631
+West Bengal,2015-2016,690
+India,2015-2016,554
+Andaman & Nicobar Islands,2016-2017,290
+Andhra Pradesh,2016-2017,490
+Assam,2016-2017,694
+Bihar,2016-2017,690
+Chhattisgarh,2016-2017,314
+Gujarat,2016-2017,556
+Karnataka,2016-2017,106
+Madhya Pradesh,2016-2017,625
+Manipur,2016-2017,1087
+Odisha,2016-2017,471
+Puducherry,2016-2017,120
+Punjab,2016-2017,844
+Tamil Nadu,2016-2017,239
+Telangana,2016-2017,909
+Tripura,2016-2017,612
+Uttar Pradesh,2016-2017,708
+West Bengal,2016-2017,695
+India,2016-2017,546
+Andaman & Nicobar Islands,2017-2018,311
+Andhra Pradesh,2017-2018,671
+Assam,2017-2018,705
+Bihar,2017-2018,707
+Chhattisgarh,2017-2018,205
+Gujarat,2017-2018,508
+Haryana,2017-2018,937
+Karnataka,2017-2018,255
+Madhya Pradesh,2017-2018,625
+Maharashtra,2017-2018,-
+Manipur,2017-2018,1116
+Odisha,2017-2018,452
+Puducherry,2017-2018,900
+Punjab,2017-2018,863
+Tamil Nadu,2017-2018,399
+Telangana,2017-2018,832
+Tripura,2017-2018,625
+Uttar Pradesh,2017-2018,671
+West Bengal,2017-2018,712
+India,2017-2018,600
+Andaman & Nicobar Islands,2018-2019,210
+Andhra Pradesh,2018-2019,771
+Assam,2018-2019,693
+Bihar,2018-2019,705
+Chhattisgarh,2018-2019,337
+Gujarat,2018-2019,1181
+Karnataka,2018-2019,171
+Madhya Pradesh,2018-2019,1235
+Manipur,2018-2019,1048
+Odisha,2018-2019,354
+Puducherry,2018-2019,415
+Punjab,2018-2019,880
+Rajasthan,2018-2019,1251
+Tamil Nadu,2018-2019,409
+Telangana,2018-2019,948
+Tripura,2018-2019,664
+Uttar Pradesh,2018-2019,830
+West Bengal,2018-2019,481
+India,2018-2019,727
+Andaman & Nicobar Islands,2019-2020,597
+Andhra Pradesh,2019-2020,867
+Assam,2019-2020,719
+Bihar,2019-2020,666
+Chhattisgarh,2019-2020,352
+Gujarat,2019-2020,1045
+Karnataka,2019-2020,296
+Madhya Pradesh,2019-2020,810
+Odisha,2019-2020,340
+Puducherry,2019-2020,248
+Punjab,2019-2020,879
+Rajasthan,2019-2020,1353
+Tamil Nadu,2019-2020,425
+Telangana,2019-2020,948
+Tripura,2019-2020,689
+Uttar Pradesh,2019-2020,885
+West Bengal,2019-2020,418
+India,2019-2020,645
+Andaman & Nicobar Islands,2020-2021,420
+Andhra Pradesh,2020-2021,814
+Assam,2020-2021,787
+Bihar,2020-2021,554
+Chhattisgarh,2020-2021,358
+Gujarat,2020-2021,1148
+Haryana,2020-2021,-
+Karnataka,2020-2021,346
+Madhya Pradesh,2020-2021,1297
+Odisha,2020-2021,212
+Puducherry,2020-2021,217
+Punjab,2020-2021,970
+Rajasthan,2020-2021,1352
+Tamil Nadu,2020-2021,281
+Telangana,2020-2021,948
+Tripura,2020-2021,749
+Uttar Pradesh,2020-2021,967
+West Bengal,2020-2021,731
+India,2020-2021,833
+Andaman & Nicobar Islands,2021-2022,420
+Andhra Pradesh,2021-2022,888
+Assam,2021-2022,740
+Bihar,2021-2022,695
+Chhattisgarh,2021-2022,359
+Gujarat,2021-2022,1324
+Karnataka,2021-2022,307
+Kerala,2021-2022,636
+Madhya Pradesh,2021-2022,1297
+Maharashtra,2021-2022,251
+Odisha,2021-2022,385
+Puducherry,2021-2022,228
+Punjab,2021-2022,1250
+Tamil Nadu,2021-2022,325
+Telangana,2021-2022,958
+Tripura,2021-2022,698
+Uttar Pradesh,2021-2022,854
+West Bengal,2021-2022,759
+India,2021-2022,987

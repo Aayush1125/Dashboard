@@ -1,0 +1,588 @@
+State,Year,Value
+Andhra Pradesh,1976-1977,64.00
+Bihar,1976-1977,37.00
+Himachal Pradesh,1976-1977,3.00
+Jammu & Kashmir,1976-1977,1.00
+Karnataka,1976-1977,110.00
+Madhya Pradesh,1976-1977,47.00
+Maharashtra,1976-1977,92.00
+Odisha,1976-1977,79.00
+Tamil Nadu,1976-1977,46.00
+West Bengal,1976-1977,2.00
+India,1976-1977,482.00
+Andhra Pradesh,1977-1978,85.00
+Bihar,1977-1978,49.00
+Himachal Pradesh,1977-1978,2.00
+Jammu & Kashmir,1977-1978,1.00
+Karnataka,1977-1978,232.00
+Madhya Pradesh,1977-1978,59.00
+Maharashtra,1977-1978,81.00
+Odisha,1977-1978,143.00
+Tamil Nadu,1977-1978,46.00
+West Bengal,1977-1978,2.00
+India,1977-1978,700.00
+Andhra Pradesh,1978-1979,89.00
+Bihar,1978-1979,51.00
+Himachal Pradesh,1978-1979,3.00
+Jammu & Kashmir,1978-1979,1.00
+Karnataka,1978-1979,260.00
+Madhya Pradesh,1978-1979,55.00
+Maharashtra,1978-1979,75.00
+Odisha,1978-1979,156.00
+Tamil Nadu,1978-1979,49.00
+West Bengal,1978-1979,2.00
+India,1978-1979,740.00
+Andhra Pradesh,1979-1980,74.00
+Bihar,1979-1980,100.00
+Himachal Pradesh,1979-1980,1.00
+Jammu & Kashmir,1979-1980,1.00
+Karnataka,1979-1980,201.00
+Kerala,1979-1980,8.00
+Madhya Pradesh,1979-1980,40.00
+Maharashtra,1979-1980,82.00
+Odisha,1979-1980,111.00
+Tamil Nadu,1979-1980,46.00
+West Bengal,1979-1980,2.00
+India,1979-1980,665.00
+Andhra Pradesh,1980-1981,61.00
+Bihar,1980-1981,36.00
+Himachal Pradesh,1980-1981,1.00
+Jammu & Kashmir,1980-1981,1.00
+Karnataka,1980-1981,203.00
+Kerala,1980-1981,11.00
+Madhya Pradesh,1980-1981,48.00
+Maharashtra,1980-1981,57.00
+Odisha,1980-1981,160.00
+Tamil Nadu,1980-1981,38.00
+West Bengal,1980-1981,1.00
+India,1980-1981,616.00
+Andhra Pradesh,1981-1982,78.00
+Bihar,1981-1982,45.00
+Himachal Pradesh,1981-1982,1.00
+Jammu & Kashmir,1981-1982,1.00
+Karnataka,1981-1982,276.00
+Kerala,1981-1982,10.00
+Madhya Pradesh,1981-1982,53.00
+Maharashtra,1981-1982,63.00
+Odisha,1981-1982,155.00
+Tamil Nadu,1981-1982,36.00
+West Bengal,1981-1982,2.00
+India,1981-1982,720.00
+Andhra Pradesh,1982-1983,96.00
+Bihar,1982-1983,35.00
+Himachal Pradesh,1982-1983,0.00
+Jammu & Kashmir,1982-1983,1.00
+Karnataka,1982-1983,183.00
+Kerala,1982-1983,12.00
+Madhya Pradesh,1982-1983,46.00
+Maharashtra,1982-1983,51.00
+Odisha,1982-1983,138.00
+Tamil Nadu,1982-1983,77.00
+West Bengal,1982-1983,3.00
+India,1982-1983,640.00
+Andhra Pradesh,1983-1984,82.00
+Bihar,1983-1984,41.00
+Himachal Pradesh,1983-1984,1.00
+Jammu & Kashmir,1983-1984,1.00
+Karnataka,1983-1984,251.00
+Kerala,1983-1984,12.00
+Madhya Pradesh,1983-1984,58.00
+Maharashtra,1983-1984,95.00
+Odisha,1983-1984,155.00
+Tamil Nadu,1983-1984,61.00
+West Bengal,1983-1984,2.00
+India,1983-1984,758.00
+Andhra Pradesh,1984-1985,61.00
+Bihar,1984-1985,43.00
+Himachal Pradesh,1984-1985,2.00
+Jammu & Kashmir,1984-1985,1.00
+Karnataka,1984-1985,169.00
+Kerala,1984-1985,12.00
+Madhya Pradesh,1984-1985,47.00
+Maharashtra,1984-1985,84.00
+Odisha,1984-1985,146.00
+Tamil Nadu,1984-1985,61.00
+West Bengal,1984-1985,3.00
+India,1984-1985,629.00
+Andhra Pradesh,1985-1986,64.00
+Bihar,1985-1986,46.00
+Himachal Pradesh,1985-1986,2.00
+Jammu & Kashmir,1985-1986,1.00
+Karnataka,1985-1986,123.00
+Kerala,1985-1986,17.00
+Madhya Pradesh,1985-1986,43.00
+Maharashtra,1985-1986,78.00
+Odisha,1985-1986,169.00
+Tamil Nadu,1985-1986,64.00
+West Bengal,1985-1986,4.00
+India,1985-1986,610.00
+Andhra Pradesh,1986-1987,42.00
+Bihar,1986-1987,43.00
+Himachal Pradesh,1986-1987,1.00
+Jammu & Kashmir,1986-1987,1.00
+Karnataka,1986-1987,186.00
+Kerala,1986-1987,12.00
+Madhya Pradesh,1986-1987,2.00
+Maharashtra,1986-1987,3.00
+Odisha,1986-1987,157.00
+Tamil Nadu,1986-1987,54.00
+West Bengal,1986-1987,4.00
+India,1986-1987,505.00
+Andhra Pradesh,1987-1988,53.00
+Bihar,1987-1988,30.00
+Himachal Pradesh,1987-1988,1.00
+Jammu & Kashmir,1987-1988,-
+Karnataka,1987-1988,203.00
+Kerala,1987-1988,12.00
+Madhya Pradesh,1987-1988,39.00
+Maharashtra,1987-1988,70.00
+Odisha,1987-1988,208.00
+Tamil Nadu,1987-1988,72.00
+West Bengal,1987-1988,5.00
+India,1987-1988,692.00
+Andhra Pradesh,1988-1989,35.00
+Bihar,1988-1989,34.00
+Himachal Pradesh,1988-1989,1.00
+Karnataka,1988-1989,92.00
+Kerala,1988-1989,11.00
+Madhya Pradesh,1988-1989,46.00
+Maharashtra,1988-1989,76.00
+Odisha,1988-1989,205.00
+Tamil Nadu,1988-1989,54.00
+India,1988-1989,555.00
+Andhra Pradesh,1989-1990,41.00
+Bihar,1989-1990,34.00
+Himachal Pradesh,1989-1990,1.00
+Jammu & Kashmir,1989-1990,1.00
+Karnataka,1989-1990,141.00
+Kerala,1989-1990,11.00
+Madhya Pradesh,1989-1990,46.00
+Maharashtra,1989-1990,99.00
+Odisha,1989-1990,208.00
+Tamil Nadu,1989-1990,61.00
+West Bengal,1989-1990,4.00
+India,1989-1990,647.00
+Andhra Pradesh,1990-1991,51.00
+Bihar,1990-1991,39.00
+Himachal Pradesh,1990-1991,1.00
+Jammu & Kashmir,1990-1991,1.00
+Karnataka,1990-1991,120.00
+Kerala,1990-1991,11.00
+Madhya Pradesh,1990-1991,47.00
+Maharashtra,1990-1991,68.00
+Odisha,1990-1991,198.00
+Tamil Nadu,1990-1991,51.00
+West Bengal,1990-1991,4.00
+India,1990-1991,590.00
+Andhra Pradesh,1991-1992,54.00
+Bihar,1991-1992,32.00
+Himachal Pradesh,1991-1992,1.00
+Jammu & Kashmir,1991-1992,1.00
+Karnataka,1991-1992,170.00
+Kerala,1991-1992,11.00
+Madhya Pradesh,1991-1992,40.00
+Maharashtra,1991-1992,37.00
+Odisha,1991-1992,203.00
+Tamil Nadu,1991-1992,48.00
+West Bengal,1991-1992,4.00
+India,1991-1992,646.00
+Andhra Pradesh,1992-1993,51.00
+Bihar,1992-1993,27.00
+Himachal Pradesh,1992-1993,1.00
+Jammu & Kashmir,1992-1993,1.00
+Karnataka,1992-1993,182.00
+Kerala,1992-1993,14.00
+Madhya Pradesh,1992-1993,42.00
+Maharashtra,1992-1993,86.00
+Odisha,1992-1993,31.00
+Tamil Nadu,1992-1993,56.00
+India,1992-1993,494.00
+Andhra Pradesh,1993-1994,40.00
+Bihar,1993-1994,4.00
+Himachal Pradesh,1993-1994,1.00
+Jammu & Kashmir,1993-1994,1.00
+Karnataka,1993-1994,172.00
+Madhya Pradesh,1993-1994,45.00
+Maharashtra,1993-1994,81.00
+Odisha,1993-1994,3.00
+Tamil Nadu,1993-1994,63.00
+West Bengal,1993-1994,4.00
+India,1993-1994,427.00
+Andhra Pradesh,1994-1995,44.00
+Bihar,1994-1995,27.00
+Himachal Pradesh,1994-1995,1.00
+Jammu & Kashmir,1994-1995,1.00
+Karnataka,1994-1995,149.00
+Kerala,1994-1995,13.00
+Madhya Pradesh,1994-1995,44.00
+Maharashtra,1994-1995,59.00
+Odisha,1994-1995,43.00
+Tamil Nadu,1994-1995,59.00
+West Bengal,1994-1995,4.00
+India,1994-1995,444.00
+Andhra Pradesh,1995-1996,44.00
+Bihar,1995-1996,28.00
+Gujarat,1995-1996,8.00
+Himachal Pradesh,1995-1996,1.00
+Jammu & Kashmir,1995-1996,1.00
+Karnataka,1995-1996,141.00
+Kerala,1995-1996,11.00
+Madhya Pradesh,1995-1996,42.00
+Maharashtra,1995-1996,49.00
+Odisha,1995-1996,39.00
+Tamil Nadu,1995-1996,29.00
+West Bengal,1995-1996,3.00
+India,1995-1996,396.00
+Andhra Pradesh,1996-1997,48.00
+Bihar,1996-1997,32.00
+Himachal Pradesh,1996-1997,1.00
+Jammu & Kashmir,1996-1997,1.00
+Karnataka,1996-1997,151.00
+Kerala,1996-1997,11.00
+Madhya Pradesh,1996-1997,41.00
+Maharashtra,1996-1997,45.00
+Odisha,1996-1997,22.00
+Tamil Nadu,1996-1997,30.00
+West Bengal,1996-1997,3.00
+India,1996-1997,384.00
+Andhra Pradesh,1997-1998,44.00
+Bihar,1997-1998,35.00
+Himachal Pradesh,1997-1998,1.00
+Jammu & Kashmir,1997-1998,1.00
+Karnataka,1997-1998,123.00
+Kerala,1997-1998,12.00
+Madhya Pradesh,1997-1998,36.00
+Maharashtra,1997-1998,35.00
+Odisha,1997-1998,33.00
+Tamil Nadu,1997-1998,43.00
+West Bengal,1997-1998,3.00
+India,1997-1998,366.00
+Andhra Pradesh,1998-1999,36.00
+Bihar,1998-1999,36.00
+Himachal Pradesh,1998-1999,1.00
+Jammu & Kashmir,1998-1999,1.00
+Karnataka,1998-1999,153.00
+Kerala,1998-1999,9.00
+Madhya Pradesh,1998-1999,34.00
+Maharashtra,1998-1999,44.00
+Odisha,1998-1999,24.00
+Tamil Nadu,1998-1999,43.00
+West Bengal,1998-1999,2.00
+India,1998-1999,382.00
+Andhra Pradesh,1999-2000,36.00
+Bihar,1999-2000,43.00
+Himachal Pradesh,1999-2000,1.00
+Jammu & Kashmir,1999-2000,1.00
+Karnataka,1999-2000,155.00
+Kerala,1999-2000,-
+Madhya Pradesh,1999-2000,32.00
+Maharashtra,1999-2000,35.00
+Odisha,1999-2000,23.00
+Tamil Nadu,1999-2000,58.00
+West Bengal,1999-2000,4.00
+India,1999-2000,395.00
+Andhra Pradesh,2000-2001,21.00
+Bihar,2000-2001,14.00
+Chhattisgarh,2000-2001,19.00
+Himachal Pradesh,2000-2001,1.00
+Jammu & Kashmir,2000-2001,1.00
+Jharkhand,2000-2001,31.00
+Karnataka,2000-2001,157.00
+Kerala,2000-2001,4.00
+Madhya Pradesh,2000-2001,7.00
+Maharashtra,2000-2001,31.00
+Odisha,2000-2001,15.00
+Tamil Nadu,2000-2001,47.00
+West Bengal,2000-2001,2.00
+India,2000-2001,349.00
+Andhra Pradesh,2001-2002,39.00
+Bihar,2001-2002,12.00
+Chhattisgarh,2001-2002,21.00
+Himachal Pradesh,2001-2002,1.00
+Jammu & Kashmir,2001-2002,1.00
+Jharkhand,2001-2002,6.00
+Karnataka,2001-2002,149.00
+Kerala,2001-2002,4.00
+Madhya Pradesh,2001-2002,9.00
+Maharashtra,2001-2002,16.00
+Odisha,2001-2002,28.00
+Tamil Nadu,2001-2002,61.00
+West Bengal,2001-2002,3.00
+India,2001-2002,349.00
+Andhra Pradesh,2002-2003,29.00
+Bihar,2002-2003,10.00
+Chhattisgarh,2002-2003,14.00
+Himachal Pradesh,2002-2003,1.00
+Jammu & Kashmir,2002-2003,1.00
+Jharkhand,2002-2003,6.00
+Karnataka,2002-2003,109.00
+Kerala,2002-2003,4.00
+Madhya Pradesh,2002-2003,8.00
+Maharashtra,2002-2003,14.00
+Odisha,2002-2003,14.00
+Tamil Nadu,2002-2003,24.00
+West Bengal,2002-2003,3.00
+India,2002-2003,236.00
+Andhra Pradesh,2003-2004,39.00
+Bihar,2003-2004,11.00
+Chhattisgarh,2003-2004,18.00
+Haryana,2003-2004,1.00
+Himachal Pradesh,2003-2004,1.00
+Jammu & Kashmir,2003-2004,1.00
+Jharkhand,2003-2004,6.00
+Karnataka,2003-2004,77.00
+Kerala,2003-2004,3.00
+Madhya Pradesh,2003-2004,10.00
+Maharashtra,2003-2004,17.00
+Odisha,2003-2004,25.00
+Tamil Nadu,2003-2004,18.00
+West Bengal,2003-2004,2.00
+India,2003-2004,229.00
+Andhra Pradesh,2004-2005,26.00
+Bihar,2004-2005,12.00
+Chhattisgarh,2004-2005,16.00
+Himachal Pradesh,2004-2005,1.00
+Jammu & Kashmir,2004-2005,1.00
+Jharkhand,2004-2005,8.00
+Karnataka,2004-2005,119.00
+Kerala,2004-2005,2.00
+Madhya Pradesh,2004-2005,8.00
+Maharashtra,2004-2005,24.00
+Odisha,2004-2005,21.00
+Tamil Nadu,2004-2005,40.00
+West Bengal,2004-2005,1.00
+India,2004-2005,279.00
+Andhra Pradesh,2005-2006,20.00
+Bihar,2005-2006,10.00
+Chhattisgarh,2005-2006,17.00
+Himachal Pradesh,2005-2006,1.00
+Jharkhand,2005-2006,7.00
+Karnataka,2005-2006,131.00
+Kerala,2005-2006,3.00
+Madhya Pradesh,2005-2006,8.00
+Maharashtra,2005-2006,22.00
+Odisha,2005-2006,21.00
+Tamil Nadu,2005-2006,22.00
+West Bengal,2005-2006,1.00
+India,2005-2006,264.00
+Andhra Pradesh,2006-2007,30.00
+Bihar,2006-2007,12.00
+Chhattisgarh,2006-2007,17.00
+Himachal Pradesh,2006-2007,1.00
+Jammu & Kashmir,2006-2007,1.00
+Jharkhand,2006-2007,7.00
+Karnataka,2006-2007,107.00
+Kerala,2006-2007,3.00
+Madhya Pradesh,2006-2007,9.00
+Maharashtra,2006-2007,25.00
+Odisha,2006-2007,21.00
+Tamil Nadu,2006-2007,38.00
+West Bengal,2006-2007,1.00
+India,2006-2007,271.00
+Andhra Pradesh,2007-2008,25.00
+Bihar,2007-2008,13.00
+Chhattisgarh,2007-2008,16.00
+Himachal Pradesh,2007-2008,1.00
+Jammu & Kashmir,2007-2008,1.00
+Jharkhand,2007-2008,7.00
+Karnataka,2007-2008,120.00
+Kerala,2007-2008,3.00
+Madhya Pradesh,2007-2008,8.00
+Maharashtra,2007-2008,35.00
+Odisha,2007-2008,21.00
+Tamil Nadu,2007-2008,23.00
+West Bengal,2007-2008,1.00
+India,2007-2008,274.00
+Andhra Pradesh,2008-2009,16.00
+Bihar,2008-2009,10.00
+Chhattisgarh,2008-2009,17.00
+Himachal Pradesh,2008-2009,1.00
+Jammu & Kashmir,2008-2009,1.00
+Jharkhand,2008-2009,6.00
+Karnataka,2008-2009,88.00
+Kerala,2008-2009,3.00
+Madhya Pradesh,2008-2009,8.00
+Maharashtra,2008-2009,18.00
+Odisha,2008-2009,16.00
+Tamil Nadu,2008-2009,21.00
+West Bengal,2008-2009,1.00
+India,2008-2009,206.00
+Andhra Pradesh,2009-2010,36.00
+Bihar,2009-2010,10.00
+Chhattisgarh,2009-2010,14.00
+Haryana,2009-2010,-
+Himachal Pradesh,2009-2010,1.00
+Jammu & Kashmir,2009-2010,1.00
+Jharkhand,2009-2010,6.00
+Karnataka,2009-2010,111.00
+Kerala,2009-2010,3.00
+Madhya Pradesh,2009-2010,7.00
+Maharashtra,2009-2010,15.00
+Odisha,2009-2010,20.00
+Tamil Nadu,2009-2010,22.00
+West Bengal,2009-2010,1.00
+India,2009-2010,246.00
+Andhra Pradesh,2010-2011,13.10
+Bihar,2010-2011,9.70
+Chhattisgarh,2010-2011,14.00
+Himachal Pradesh,2010-2011,1.10
+Jammu & Kashmir,2010-2011,0.30
+Jharkhand,2010-2011,17.20
+Karnataka,2010-2011,134.00
+Madhya Pradesh,2010-2011,0.10
+Maharashtra,2010-2011,14.50
+Odisha,2010-2011,22.50
+Tamil Nadu,2010-2011,21.70
+Telangana,2010-2011,2.90
+Uttarakhand,2010-2011,10.40
+West Bengal,2010-2011,1.20
+India,2010-2011,262.80
+Andhra Pradesh,2011-2012,14.00
+Bihar,2011-2012,8.20
+Chhattisgarh,2011-2012,14.90
+Himachal Pradesh,2011-2012,1.20
+Jammu & Kashmir,2011-2012,0.30
+Jharkhand,2011-2012,9.80
+Karnataka,2011-2012,92.00
+Madhya Pradesh,2011-2012,5.00
+Maharashtra,2011-2012,4.20
+Odisha,2011-2012,10.70
+Tamil Nadu,2011-2012,37.20
+Telangana,2011-2012,-
+Uttarakhand,2011-2012,10.00
+India,2011-2012,207.50
+Andhra Pradesh,2012-2013,17.00
+Bihar,2012-2013,7.80
+Chhattisgarh,2012-2013,14.00
+Haryana,2012-2013,0.20
+Himachal Pradesh,2012-2013,0.90
+Jammu & Kashmir,2012-2013,0.40
+Jharkhand,2012-2013,7.20
+Karnataka,2012-2013,80.00
+Madhya Pradesh,2012-2013,4.90
+Maharashtra,2012-2013,4.30
+Odisha,2012-2013,17.50
+Tamil Nadu,2012-2013,24.90
+Telangana,2012-2013,2.00
+Uttarakhand,2012-2013,10.70
+West Bengal,2012-2013,1.30
+India,2012-2013,193.00
+Andhra Pradesh,2013-2014,15.00
+Bihar,2013-2014,7.80
+Chhattisgarh,2013-2014,15.50
+Himachal Pradesh,2013-2014,0.80
+Jammu & Kashmir,2013-2014,0.20
+Jharkhand,2013-2014,15.00
+Karnataka,2013-2014,87.00
+Kerala,2013-2014,0.30
+Madhya Pradesh,2013-2014,5.80
+Odisha,2013-2014,15.00
+Tamil Nadu,2013-2014,56.90
+Telangana,2013-2014,1.00
+Uttarakhand,2013-2014,11.90
+West Bengal,2013-2014,1.50
+India,2013-2014,233.70
+Andhra Pradesh,2014-2015,16.00
+Bihar,2014-2015,8.00
+Chhattisgarh,2014-2015,17.60
+Haryana,2014-2015,0.20
+Himachal Pradesh,2014-2015,0.70
+Jammu & Kashmir,2014-2015,0.10
+Jharkhand,2014-2015,22.30
+Karnataka,2014-2015,87.00
+Madhya Pradesh,2014-2015,10.00
+Maharashtra,2014-2015,3.40
+Odisha,2014-2015,13.20
+Tamil Nadu,2014-2015,68.30
+Telangana,2014-2015,1.00
+West Bengal,2014-2015,1.50
+Uttarakhand,2014-2015,11.60
+India,2014-2015,260.90
+Andhra Pradesh,2015-2016,22.00
+Bihar,2015-2016,7.20
+Chhattisgarh,2015-2016,16.20
+Haryana,2015-2016,0.20
+Jharkhand,2015-2016,18.80
+Karnataka,2015-2016,79.00
+Madhya Pradesh,2015-2016,5.00
+Odisha,2015-2016,9.40
+Tamil Nadu,2015-2016,42.20
+Telangana,2015-2016,1.00
+Uttarakhand,2015-2016,10.70
+West Bengal,2015-2016,1.50
+India,2015-2016,213.40
+Andhra Pradesh,2016-2017,6.00
+Bihar,2016-2017,7.60
+Chhattisgarh,2016-2017,16.80
+Haryana,2016-2017,0.07
+Himachal Pradesh,2016-2017,0.74
+Jammu & Kashmir,2016-2017,0.28
+Jharkhand,2016-2017,19.50
+Karnataka,2016-2017,16.00
+Madhya Pradesh,2016-2017,9.42
+Odisha,2016-2017,14.85
+Tamil Nadu,2016-2017,12.36
+Telangana,2016-2017,1.00
+Uttarakhand,2016-2017,11.00
+West Bengal,2016-2017,1.00
+India,2016-2017,116.65
+Andhra Pradesh,2017-2018,22.00
+Bihar,2017-2018,7.98
+Chhattisgarh,2017-2018,16.32
+Haryana,2017-2018,0.20
+Himachal Pradesh,2017-2018,0.94
+Jammu & Kashmir,2017-2018,0.47
+Jharkhand,2017-2018,8.83
+Karnataka,2017-2018,112.00
+Madhya Pradesh,2017-2018,6.00
+Odisha,2017-2018,10.78
+Tamil Nadu,2017-2018,48.53
+Telangana,2017-2018,-
+Uttarakhand,2017-2018,12.00
+West Bengal,2017-2018,1.08
+India,2017-2018,247.13
+Andhra Pradesh,2018-2019,38.00
+Bihar,2018-2019,8.97
+Chhattisgarh,2018-2019,15.20
+Haryana,2018-2019,0.30
+Himachal Pradesh,2018-2019,0.94
+Jammu & Kashmir,2018-2019,0.33
+Jharkhand,2018-2019,11.29
+Karnataka,2018-2019,29.34
+Madhya Pradesh,2018-2019,1.00
+Odisha,2018-2019,8.69
+Tamil Nadu,2018-2019,53.53
+Telangana,2018-2019,1.00
+Uttarakhand,2018-2019,12.00
+West Bengal,2018-2019,0.70
+India,2018-2019,181.29
+Andhra Pradesh,2019-2020,56.00
+Bihar,2019-2020,7.46
+Chhattisgarh,2019-2020,13.91
+Haryana,2019-2020,0.11
+Himachal Pradesh,2019-2020,1.02
+Jammu & Kashmir,2019-2020,0.22
+Jharkhand,2019-2020,13.82
+Karnataka,2019-2020,121.00
+Madhya Pradesh,2019-2020,0.00
+Odisha,2019-2020,9.02
+Tamil Nadu,2019-2020,61.38
+Telangana,2019-2020,1.00
+Uttarakhand,2019-2020,11.00
+West Bengal,2019-2020,0.92
+India,2019-2020,296.86
+Andhra Pradesh,2020-2021,14.00
+Bihar,2020-2021,6.35
+Chhattisgarh,2020-2021,10.80
+Haryana,2020-2021,0.40
+Himachal Pradesh,2020-2021,0.80
+Jammu & Kashmir,2020-2021,0.24
+Jharkhand,2020-2021,13.09
+Karnataka,2020-2021,96.30
+Madhya Pradesh,2020-2021,0.27
+Odisha,2020-2021,10.50
+Tamil Nadu,2020-2021,56.51
+Telangana,2020-2021,3.00
+Uttarakhand,2020-2021,13.00
+West Bengal,2020-2021,0.96
+India,2020-2021,226.21
