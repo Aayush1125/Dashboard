@@ -26,7 +26,7 @@ def show_india_timelapse_map(df, geojson_data, metric_title="Value"):
         df,
         geojson=geojson_data,
         locations="State",
-        featureidkey="properties.ST_NM",
+        featureidkey="properties.NAME_1",
         color="Value",
         hover_name="State",
         animation_frame="Year",
