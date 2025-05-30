@@ -303,8 +303,6 @@ with st.sidebar:
         selected_file = available_categories[selected_world_category]
 
 # ... (after the WORLD MAP sidebar section)
-for feature in india_geojson["features"]:
-    feature["properties"]["ST_NM"] = feature["properties"]["NAME_1"]
 
 # ---------- INDIA MAP CONTROLS ----------
 with st.sidebar:
@@ -369,6 +367,8 @@ india_map_full_path = st.session_state.get("india_map_full_path")
 selected_pulse_india = st.session_state.get("selected_pulse_india")
 selected_season_india = st.session_state.get("selected_season_india")
 selected_type = st.session_state.get("selected_type")
+for feature in india_geojson["features"]:
+    feature["properties"]["ST_NM"] = feature["properties"]["NAME_1"]
 
 if india_geojson and india_map_full_path and selected_pulse_india and selected_season_india and selected_type:
     st.subheader(f"🇮🇳 State-wise {selected_pulse_india} - {selected_season_india} ({selected_type})")
