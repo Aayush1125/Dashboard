@@ -358,9 +358,7 @@ if st.session_state.india_geojson and st.session_state.india_map_full_path:
                 show_india_timelapse_map(df_india, st.session_state.india_geojson, metric_title=metric_display_title)
             else:
                 st.error(f"Data file '{st.session_state.india_map_file_name}' is missing one or more required columns: {required_cols}")
-
-'''
-if st.session_state.india_geojson and india_map_full_path:
+'''if st.session_state.india_geojson and india_map_full_path:
     if os.path.exists(india_map_full_path):
         try:
             df_india = pd.read_csv(india_map_full_path)
