@@ -299,7 +299,7 @@ with st.sidebar:
         st.session_state.india_geojson = load_geojson()
 
     if st.session_state.india_geojson:
-        india_map_food_crop = st.selectbox(
+        st.session_state.india_map_food_crop = st.selectbox(
             "Select Food Crop (India Map)",
             ["Pulses"],
             key="india_map_food_crop"
@@ -309,14 +309,14 @@ with st.sidebar:
             "Arhar", "Gram", "Moong", "Masoor", "Urad", "Moth",
             "Kulthi", "Khesari", "Total Pulses"
         ]
-        selected_pulse_india = st.selectbox(
+        st.session_state.selected_pulse_india = st.selectbox(
             "Select Pulse (India Map)",
             pulse_options_india,
             key="india_map_pulse"
         )
 
         season_options_india = ["Kharif", "Rabi", "Total Season"]
-        selected_season_india = st.selectbox(
+        st.session_state.selected_season_india = st.selectbox(
             "Select Season (India Map)",
             season_options_india,
             key="india_map_season"
@@ -324,11 +324,11 @@ with st.sidebar:
 
         india_map_data_path = f"India_Map_Data/{st.session_state.selected_type}"
         sanitized_pulse_name = selected_pulse_india.replace(" ", "_")
-        india_map_file_name = f"{sanitized_pulse_name}_{selected_season_india}.csv"
-        india_map_full_path = os.path.join(india_map_data_path, india_map_file_name)
+        st.session_state.india_map_file_name = f"{sanitized_pulse_name}_{selected_season_india}.csv"
+        st.session_state.india_map_full_path = os.path.join(india_map_data_path, india_map_file_name)
     else:
         st.sidebar.error("Could not load GeoJSON for India map. Map functionality will be disabled.")
-        india_map_full_path = None
+        st.session_state.india_map_full_path = None
 # Ensure this is defined if GeoJSON fails to load
 
 # ---------- MAIN WORLD RENDER ----------
@@ -343,8 +343,23 @@ elif selected_type:  # Only warn if type was selected but no files
 
 # ---------- INDIA MAP RENDER ----------
 st.markdown("---")
-st.subheader(f"🇮🇳 State-wise {selected_pulse_india} - {selected_season_india} ({st.session_state.selected_type})")
+#st.subheader(f"🇮🇳 State-wise {selected_pulse_india} - {selected_season_india} ({st.session_state.selected_type})")
 
+st.subheader(f"🇮🇳 State-wise {st.session_state.selected_pulse_india} - {st.session_state.selected_season_india} ({st.session_state.selected_type})")
+
+if st.session_state.india_geojson and st.session_state.india_map_full_path:
+    if os.path.exists(st.session_state.india_map_full_path):
+        try:
+        df_india = pd.read_csv(st.session_state.india_map_full_path)
+        required_cols = ["State", "Year", "Value"]  # No Unit anymore
+
+        if all(col in df_india.columns for col in required_cols):
+            metric_display_title = f"{st.session_state.selected_pulse_india} - {st.session_state.selected_season_india} - {st.session_state.selected_type}"
+            show_india_timelapse_map(df_india, st.session_state.india_geojson, metric_title=metric_display_title)
+        else:
+            st.error(f"Data file '{st.session_state.india_map_file_name}' is missing one or more required columns: {required_cols}")
+
+'''
 if st.session_state.india_geojson and india_map_full_path:
     if os.path.exists(india_map_full_path):
         try:
@@ -354,7 +369,7 @@ if st.session_state.india_geojson and india_map_full_path:
                 metric_display_title = f"{selected_pulse_india} - {selected_season_india} - {st.session_state.selected_type}"
                 show_india_timelapse_map(df_india, st.session_state.india_geojson, metric_title=metric_display_title)
             else:
-                st.error(f"Data file '{india_map_file_name}' is missing one or more required columns: {required_cols}.")
+                st.error(f"Data file '{india_map_file_name}' is missing one or more required columns: {required_cols}.")'''
         except pd.errors.EmptyDataError:
             st.warning(f"The data file '{india_map_file_name}' is empty.")
         except Exception as e:
